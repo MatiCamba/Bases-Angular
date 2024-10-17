@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
   template: `<h3>Counter: {{ counter }}</h3>
 
   <button (click)="increaseBY()" >+1</button>
-  <button (click)="resetCounter()">Reset </button>
+  <button class="mx-2" (click)="resetCounter()">Reset </button>
   <button (click)="decreaseBy()" >-1</button>`
 })
 
